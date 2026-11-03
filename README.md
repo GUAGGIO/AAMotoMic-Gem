@@ -77,13 +77,19 @@ If Gemini is reading a lengthy response (e.g., a long Wikipedia summary or news 
 
 ## 📱 Hardware & Software Compatibility
 
-| Feature | Supported |
-| :--- | :--- |
-| **Android Versions** | Android 11, 12, 13, 14, 15, and 16 |
-| **Tested Android Skins** | Xiaomi HyperOS, Samsung OneUI, Google Pixel UI, Motorola MyUX |
-| **Tested Voice Engines** | Google Gemini Live, Google Assistant |
-| **Tested Head Units** | TF807, Carpuride, Ottocast, Podofo, Coral Vision, Linux & Android Displays |
-| **Tested Intercoms** | Cardo Packtalk, Sena 50S/30K/20S, Midland, FreedConn, VR1, generic BT 5.x |
+### 🔬 Verified & Tested Hardware (Our Testbed)
+Every feature, timeout fix, and audio behavior in **v11.0-Gem** was specifically tested and verified on:
+* **Phone:** Xiaomi POCO X7 Pro (`Xiaomi 2412DPC0AG`)
+* **OS:** Xiaomi HyperOS (Android 15 / MediaTek Dimensity 8300-Ultra)
+* **Helmet Intercom:** VR1 Bluetooth Helmet Intercom (`4E:F4:81:8E:E7:05`)
+* **Motorcycle Display:** TF807 Linux Motorcycle Display (`1600x600`, Zlink5 v1.0.1, OpenCar GAL 1.4)
+* **Voice Engines:** Google Gemini & Google Assistant via Android Auto (`com.google.android.projection.gearhead`)
+
+### 🌐 Expected Compatibility (Standard Android Bluetooth Architecture)
+Because AAMotoMic Gem relies on standard Android Bluetooth HFP/SCO and AudioManager APIs (API 24 to 35):
+* **Intercoms:** Any Bluetooth headset or helmet intercom supporting standard Bluetooth HFP/SCO (Cardo, Sena, Midland, FreedConn, etc.).
+* **Head Units:** Any aftermarket Linux/Android motorcycle display running Android Auto (Carpuride, Ottocast, Podofo, etc.) or wired/wireless motorcycle headunits.
+* **Smartphones:** Modern Android devices running Android 11 through 16. *(Note: Feedback and test logs from riders with Samsung OneUI, Google Pixel, or other devices are welcome!)*
 
 ---
 
