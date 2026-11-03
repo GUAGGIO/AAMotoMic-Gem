@@ -1,0 +1,27 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.valerio.aamotomic.pro'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.valerio.aamotomic.pro"
+        minSdk 24
+        targetSdk 35
+        versionCode 22
+        versionName "11.0-Gem"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+}
